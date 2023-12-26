@@ -1,0 +1,37 @@
+Licensing Information
+---------------------------
+
+[Artwork]
+All done by Christine Chee
+
+[Background Music]
+snd_music
+File: SkyFire (Title Screen).ogg
+Author: Oblidivm
+License by: Creative Commons
+Link: https://opengameart.org/content/space-shooter-music
+
+[Sound Effects]
+snd_dash
+File: Melee Combat Whoosh
+Author: EminYILDIRIM
+License by: Creative Commons
+Link: https://freesound.org/people/EminYILDIRIM/sounds/539172/
+
+snd_kill_enemy
+File: Impact with gore 3.wav
+Author: JarredGibb
+License by: Creative Commons
+Link: https://freesound.org/people/JarredGibb/sounds/217319/
+
+snd_player_killed
+File: THMAdventure_Sound » hurt01[THM_Adventure] 
+Author: deleted_user_3330286
+License by: Creative Commons
+Link: https://freesound.org/people/deleted_user_3330286/sounds/188567/
+
+snd_player_shooting
+File: SHOOT005.mp3
+Author: jalastram
+License by: Creative Commons
+Link: https://freesound.org/people/jalastram/sounds/221437/

@@ -1,0 +1,61 @@
+if(instance_exists(oPlayer) && abs(x - oPlayer.x) < 700){
+	hsp = dir * movespeed;
+	vsp += grav;
+	
+	//horizontal
+	if (place_meeting(x+hsp,y,oGround))
+	{
+	    while (!place_meeting(x+sign(hsp),y,oGround))
+	        {
+	            x += sign(hsp);
+	        }
+	    hsp = 0;
+	    dir *= -1;
+	}
+
+	x += hsp;
+
+	//Vertical
+	if (place_meeting(x,y+vsp,oGround))
+	{
+	    while (!place_meeting(x,y+sign(vsp),oGround))
+	    {
+			y += sign(vsp);
+	    }
+		vsp = 0;
+		if (!position_meeting(x+(sprite_width/2), y+(sprite_height/2)+8, oGround))
+	    {
+			dir *= -1;
+	    }
+	}
+
+	y += vsp;
+
+	//Enemy Collision
+	if (place_meeting(x,y,oPlayer))
+	{
+		with (oPlayer) instance_destroy();
+	}
+	
+	if(place_meeting(x,y,oBullet)){
+		instance_destroy(instance_place(x,y,oBullet));
+		instance_destroy();
+	}
+	
+	
+	image_xscale = dir;
+}
+//when the bullet hits the shield make the enemyParent flash red
+
+
+if(hit){
+	
+	hit_timer += 1;
+	
+	if(hit_timer > hit_release){
+		hit = false;
+	}
+	
+} else {
+	hit_timer = 0;
+}

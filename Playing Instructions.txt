@@ -1,0 +1,19 @@
+[Intergalactic Avengers]
+
+Contributers: Christine Chee, Amir Fleurizard, Jonothan Sigmon, & Dennis White
+
+-HOW TO PLAY-
+
+In this game you move up and down, side to side and jump from platform to platform. 
+You cannot hit the ground or else you will die. You use the mouse pad to aim and click
+to shoot at the different types of enemies. This game is set in the setting of
+outer space. Enjoy the game!
+
+A - Left
+D - Right
+W - Up
+S - Down
+Space - Jump
+SHIFT + (A,D,W,S) - Dash
+Left Click - Aim and Shoot
+R - Restart
